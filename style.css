@@ -1,0 +1,104 @@
+    @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" );
+
+
+    body
+    {
+        margin: 0px;
+        padding: 0px;
+        background: url('images/dash_p2.jpg');
+        background-size: cover;
+        /* background-size: 1536px 823px; */
+        background-repeat: no-repeat;
+        /* background-position: center; */
+        font-size: 13px;
+        font-family: 'Nanum Myeongjo', serif;
+        font-weight: 500;
+    }
+
+
+    .Header
+    {
+        background-color: rgb(81, 76, 76);
+        margin: 150px 50px;
+        padding:1%;
+        width: 500px;
+        border-radius: 23px;
+        text-align: left;
+        opacity: .95;
+        clear: left;
+        /* box-sizing: border-box; */
+    }
+    .form
+    {
+        color:rgb(251, 255, 255);
+        margin:20px;
+        padding:1%;
+        border-bottom: 1px solid rgb(251, 255, 255);
+    }
+    .btn
+    {
+        outline: auto;
+        width: 100px;
+        padding: 10px;
+        color:rgb(94, 100, 100);
+        border-radius: 54px;
+        margin: 30px;
+    }
+    .dis
+    {
+        font-size: 14px;
+        margin: 29px;
+        color: rgb(205, 218, 218);
+        font-weight: normal;
+    }
+    input
+    {
+        background-color: rgb(81, 76, 76);
+        /* opacity: .5; */
+        border: none;
+        outline: none;
+        width: 295px;
+        padding: 1%;
+        background: transparent;
+        color: white;
+    }
+    #b
+    {
+        width: 100px;
+        font-family: 'Nanum Myeongjo', serif;
+        font-weight: bold;
+    }
+    .mode
+    {
+        color:rgb(251, 255, 255);
+        margin:20px;
+        padding:1%;
+        /* border-bottom: 1px solid rgb(251, 255, 255) ; */
+    }
+    /* ::placeholder
+    {
+        color:rgb(205, 218, 218);
+    } */
+
+    h4
+    {
+        color: white;
+        text-align: center;
+        font-size: 17px;
+        font-weight: normal;
+    }
+    .pass
+    {
+        text-align: right;
+        margin: auto 10px;
+        color: rgb(205, 218, 218);
+    }
+    #cpassword
+    {
+        width: 250px;
+    }
+
+    .form-outline.error small
+{
+    visibility: visible;
+}

@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" );
+
+
+    body
+    {
+        margin: 0px;
+        padding: 0px;
+        /* background: url('images/dash2.jpg'); */
+        /* background-size: cover; */
+        /* background-size: 1536px 823px; */
+        /* background-repeat: no-repeat; */
+        /* background-position: center; */
+        font-size: 13px;
+        font-family: 'Nanum Myeongjo', serif;
+        font-weight: 500;
+    }
+    .dash
+    {
+        width: 400px;
+        /* color: burlywood; */
+        /* background-color: rgb(104, 64, 12); */
+        padding: 1%;
+        color:  rgb(104, 64, 12);
+        font-weight: bolder;
+        font-size: 35px;
+        margin: 70px auto 20px auto;
+    }
+    .wel
+    {
+        width: 50%;
+        /* height:60px; */
+        /* background-color: burlywood; */
+        /* background-color: rgb(104, 64, 12); */
+        padding: 1%;
+        color:  rgb(104, 64, 12);
+        margin: auto auto;
+        display: grid;
+        place-items: center;
+        /* position: relative; */
+    }
+    h4 
+    {
+        text-align: center;
+    }
+
+    .options
+    {
+        background-color: rgb(230, 220, 208);
+        width: 350px;
+        height:60px;
+        font-weight: 700;
+      display: grid;
+        place-items: center;
+        border: 2px solid  rgb(130, 126, 121);
+        border-radius: 4px;
+      /* position: absolute;
+      left:50%;
+      top:50%;
+      transform:translate(-50%, -50%); */
+    }
+    a{
+        color:rgb(104, 64, 12);
+        text-decoration: none;
+        font-size: 20px;
+    }
